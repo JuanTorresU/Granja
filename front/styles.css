@@ -1,0 +1,10 @@
+div {
+  display: inline-block;
+  width: 200px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: dimgrey;
+}

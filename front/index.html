@@ -1,24 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Load c3.css -->
-    <link href="dependencies/c3/c3.css" rel="stylesheet">
+    <link href="dependencies/c3/c3.css" rel="stylesheet" type="text/css" />
 
     <!-- Load d3.js and c3.js -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="dependencies/c3/c3.min.js"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <h1>Temperatura</h1>
-    <div id="chart"></div>
-</body>
-<script src="scripts/main.js"></script>
+  <body>
+    <div style="display: inline-block">
+      <h1
+        style="
+          font-family: Verdana;
+          font-size: 14px;
+          color: lightslategrey;
+          display: block;
+        "
+      >
+        Temperatura
+      </h1>
+      <div id="chart1" style="display: block; width: 600px"></div>
+    </div>
 
+    <div style="display: inline-block">
+      <h1
+        style="
+          font-family: Verdana;
+          font-size: 14px;
+          color: lightslategrey;
+          display: block;
+        "
+      >
+        Humedad Relativa
+      </h1>
+      <div id="chart2" style="display: block; width: 600px"></div>
+    </div>
+
+    <div style="display: inline-block">
+      <h1
+        style="
+          font-family: Verdana;
+          font-size: 14px;
+          color: lightslategrey;
+          display: block;
+        "
+      >
+        Luminosidad
+      </h1>
+      <div id="chart3" style="display: block; width: 600px"></div>
+    </div>
+
+    <div style="display: inline-block">
+      <h1
+        style="
+          font-family: Verdana;
+          font-size: 14px;
+          color: lightslategrey;
+          display: block;
+        "
+      >
+        Humedad del suelo recipiente 1
+      </h1>
+      <div id="chart4" style="display: block; width: 600px"></div>
+    </div>
+
+    <div style="display: inline-block">
+      <h1
+        style="
+          font-family: Verdana;
+          font-size: 14px;
+          color: lightslategrey;
+          display: block;
+        "
+      >
+        Humedad del suelo recipiente 2
+      </h1>
+      <div id="chart5" style="display: block; width: 600px"></div>
+    </div>
+
+    <div style="display: inline-block">
+      <h1
+        style="
+          font-family: Verdana;
+          font-size: 14px;
+          color: lightslategrey;
+          display: block;
+        "
+      >
+        Humedad del suelo recipiente 3
+      </h1>
+      <div id="chart6" style="display: block; width: 600px"></div>
+    </div>
+  </body>
+  <script src="scripts/main.js"></script>
 </html>
